@@ -1,0 +1,15 @@
+@font-face {
+	font-family: "Arm Hmk Imagine Square";
+	src: "fotns/ARM HMK IMAGINESQUARE.TTF";
+}
+
+.md-typeset h1{
+	font-family: "Arm Hmk Imagine Square";
+	letter-spacing: 2pt;
+}
+
+.md-ellipsis{
+	font-family: "Arm Hmk Imagine Square";
+	font-weight: normal;
+	font-size: 16pt;
+}

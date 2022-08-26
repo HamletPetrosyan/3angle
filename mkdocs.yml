@@ -1,0 +1,67 @@
+site_name: 3angle
+site_author: 3angle
+site_description: >-
+  3 angles
+
+docs_dir: src
+
+copyright: Copyright &copy; 2022 - 2023 Hamlet Petrosyan
+
+theme:
+  name: material
+  logo: assets/favicon.ico
+  favicon: assets/favicon.ico
+  language: hy
+  font:
+    code: JetBrains Mono
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: deep purple
+      accent: light blue
+      toggle:
+        icon: material/eye
+        name: Մգացնել
+
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: deep purple
+      accent: yellow
+      toggle:
+        icon: material/eye-outline
+        name: Պայծառացնել
+  features:
+    - navigation.top
+    - content.tooltips
+    - header.autohide
+
+markdown_extensions:
+  - abbr
+  - attr_list
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.arithmatex:
+      generic: true
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+
+extra_css:
+  - stylesheets/extra.css
+
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+
+extra:
+  social:
+    - icon: fontawesome/solid/chart-simple
+      link: https://codeforces.com/profile/HamletPetrosyan
+    - icon: fontawesome/solid/horse
+      link: https://atcoder.jp/users/HamletPetrosyan
+    - icon: fontawesome/solid/utensils
+      link: https://www.codechef.com/users/hamazark
