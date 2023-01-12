@@ -38,6 +38,7 @@ theme:
 markdown_extensions:
   - abbr
   - attr_list
+  - md_in_html
   - pymdownx.highlight:
       anchor_linenums: true
   - pymdownx.inlinehilite
@@ -48,6 +49,9 @@ markdown_extensions:
   - admonition
   - pymdownx.details
   - pymdownx.superfences
+
+plugins:
+  - glightbox
 
 extra_css:
   - stylesheets/extra.css
@@ -60,8 +64,10 @@ extra_javascript:
 extra:
   social:
     - icon: fontawesome/solid/chart-simple
-      link: https://codeforces.com/profile/HamletPetrosyan
+      link: https://codeforces.com/profile/erankyun
     - icon: fontawesome/solid/horse
       link: https://atcoder.jp/users/HamletPetrosyan
     - icon: fontawesome/solid/utensils
       link: https://www.codechef.com/users/hamazark
+    - icon: fontawesome/solid/keyboard
+      link: https://typingstats.com/profile/pjr
